@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+	<meta name="author" content="Maksim Arkhipov"/>
+  <meta name="description" content="Описание"/>
+  <meta name="keywords" content="Ключевые слова"/>
+  <meta name="robots" content="index,follow"/>
+	<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+	<link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css"/>
+	<link rel="stylesheet" href="css/style.min.css">
+	<title>Главная</title>
+</head>
+	<body>
+		<div class="wrapper">
+			<header class="header">
+	<div class="header__container">
+		<nav class="header__navbar">
+			<div class="hamb">
+				<div class="hamb__field" id="hamb">
+					<span class="bar"></span>
+					<span class="bar"></span>
+					<span class="bar"></span>
+				</div>
+			</div>
+			<a href="index.html" class="header__logo logo">
+				<img src="images/лого.svg" alt="лого">
+			</a>
+			<div class="lang-switch"><a href="#" class="lang-switch-ru">Ru</a>/<a href="#" class="lang-switch-en">En</a></div>
+			<ul class="header__menu" id="menu">
+				<li class="menu__item"><a href=".html" class="menu__link">Клюшки</a></li>
+				<li class="menu__item"><a href=".html" class="menu__link">Одежда</a></li>
+				<li class="menu__item"><a href=".html" class="menu__link">Аксессуары</a></li>
+				<li class="menu__item"><a href=".html" class="menu__link">Кастомизация</a></li>
+				<li class="menu__item"><a href=".html" class="menu__link">Отследить заказ</a></li>
+			</ul>
+			<ul class="header__icons">
+				<li class="search__icon"><a href="#"><img src="images/search.svg" alt="поиск"></a></li>
+				<li class="phone__icon"><a href="#"><img src="images/phone.svg" alt="телефон"></a></li>
+				<li class="stats__icon"><a href="#"><img src="images/stats.svg" alt="статистика"></a></li>
+				<li class="profile__icon"><a href="#"><img src="images/profile.svg" alt="профиль"></a></li>
+			</ul>
+			<a href="#" class="basket"><img src="images/basket.svg" alt="корзина"></a>
+		</nav>
+		<div class="popup" id="popup"></div>
+	</div>
+</header>
+			<main class="main">
+	<section class="home">
+		<div class="home__container">
+			<div class="home__bg-charge"><img src="images/charge.svg" alt="заряд"></div>
+			<div class="bg-orange"></div>
+			<div class="bg-blue"></div>
+			<div class="home-swiper">
+				<div class="swiper-wrapper">
+					<div class="swiper-slide home-slide">
+					</div>
+					<div class="swiper-slide home-slide">
+						<div class="home-slide__top-content">
+							<div class="home-slide__block-btn"><a class="home-slide__btn btn" href="#">В каталог</a></div>
+						</div>
+						<div class="home-slide__info">
+							<p class="home-slide__human-name">Константин<br>Константинович</p>
+							<p class="home-slide__human-bio">Крутой хоккеист<br>такой-то команды</p>
+							<div class="circle stop-circle"></div>
+							<img class="play-circle" src="images/play.svg" alt="play">
+						</div>
+					</div>
+					<div class="swiper-slide home-slide">
+					</div>
+				</div>
+			</div>
+			<div class="swiper-button-prev home-swiper-button-prev"></div>
+			<div class="swiper-button-next home-swiper-button-next"></div>
+		</div>
+	</section>
+	<section class="products">
+		<div class="products__container">
+			<div class="products__top-content">
+				<h2 class="products__title title">Выбор наших клиентов</h2>
+				<div class="swiper-card-buttons">
+					<div class="swiper-button-prev swiper-card-button-prev"></div>
+					<div class="swiper-button-next swiper-card-button-next"></div>
+				</div>
+			</div>
+			<div class="swiper-card">
+				<div class="swiper-wrapper">
+					<div class="swiper-slide card-item">
+						<img src="images/photo-card.png" alt="photo-card">
+						<h4 class="name-card">Хоккейная клюшка Заряд Т100</h4>
+						<span class="price-card">14 690 ₽</span>
+						<div class="btns-card">
+							<a href="#" class="stats-card"><img src="images/stats2.svg" alt="stats"></a>
+							<a href="#" class="more-btn">Подробнее</a>
+						</div>
+					</div>
+					<div class="swiper-slide card-item">
+						<img src="images/photo-card.png" alt="photo-card">
+						<h4 class="name-card">Хоккейная клюшка Заряд Т100</h4>
+						<span class="price-card">14 690 ₽</span>
+						<div class="btns-card">
+							<a href="#" class="stats-card"><img src="images/stats2.svg" alt="stats"></a>
+							<a href="#" class="more-btn">Подробнее</a>
+						</div>
+					</div>
+					<div class="swiper-slide card-item">
+						<img src="images/photo-card.png" alt="photo-card">
+						<h4 class="name-card">Хоккейная клюшка Заряд Т100</h4>
+						<span class="price-card">14 690 ₽</span>
+						<div class="btns-card">
+							<a href="#" class="stats-card"><img src="images/stats2.svg" alt="stats"></a>
+							<a href="#" class="more-btn">Подробнее</a>
+						</div>
+					</div>
+					<div class="swiper-slide card-item">
+						<img src="images/photo-card.png" alt="photo-card">
+						<h4 class="name-card">Хоккейная клюшка Заряд Т100</h4>
+						<span class="price-card">14 690 ₽</span>
+						<div class="btns-card">
+							<a href="#" class="stats-card"><img src="images/stats2.svg" alt="stats"></a>
+							<a href="#" class="more-btn">Подробнее</a>
+						</div>
+					</div>
+					<div class="swiper-slide card-item">
+						<img src="images/photo-card.png" alt="photo-card">
+						<h4 class="name-card">Хоккейная клюшка Заряд Т100</h4>
+						<span class="price-card">14 690 ₽</span>
+						<div class="btns-card">
+							<a href="#" class="stats-card"><img src="images/stats2.svg" alt="stats"></a>
+							<a href="#" class="more-btn">Подробнее</a>
+						</div>
+					</div>
+					<div class="swiper-slide card-item">
+						<img src="images/photo-card.png" alt="photo-card">
+						<h4 class="name-card">Хоккейная клюшка Заряд Т100</h4>
+						<span class="price-card">14 690 ₽</span>
+						<div class="btns-card">
+							<a href="#" class="stats-card"><img src="images/stats2.svg" alt="stats"></a>
+							<a href="#" class="more-btn">Подробнее</a>
+						</div>
+					</div>
+					<div class="swiper-slide card-item">
+						<img src="images/photo-card.png" alt="photo-card">
+						<h4 class="name-card">Хоккейная клюшка Заряд Т100</h4>
+						<span class="price-card">14 690 ₽</span>
+						<div class="btns-card">
+							<a href="#" class="stats-card"><img src="images/stats2.svg" alt="stats"></a>
+							<a href="#" class="more-btn">Подробнее</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<div class="stripes">
+		<div class="white-stripe">
+			<ul class="white-stripe__list">
+				<li class="white-stripe__item">Клюшки</li>
+				<li class="white-stripe__item">Одежда</li>
+				<li class="white-stripe__item">Аксессуары</li>
+				<li class="white-stripe__item">одежда</li>
+				<li class="white-stripe__item">клюшки</li>
+			</ul>
+		</div>
+		<div class="blue-stripe">
+			<ul class="blue-stripe__list">
+				<li class="blue-stripe__item">Клюшки для маленьких чемпионов</li>
+				<li class="blue-stripe__item">Уникальная клюшка с твоим именем</li>
+				<li class="blue-stripe__item">Клюшки для маленьких чемпионов</li>
+				<li class="blue-stripe__item">Клюшки для маленьких чемпионов</li>
+			</ul>
+		</div>
+	</div>
+	<section class="test">
+		<div class="test__container">
+			<h1 class="test__title title">Подберем Вашу<br>идеальную клюшку</h1>
+			<p class="test__subtitle">Пройдите тест и узнайте какая клюшкам подойдет именно вам</p>
+			<div class="test__content">
+				<img class="test__bg-charge" src="images/charge.svg" alt="заряд">
+				<div class="test-bg-orange"></div>
+				<div class="test-bg-blue"></div>
+				<img src="images/hockeyplayyer.png" alt="player" class="test__player">
+				<div class="test__block-btn"><a class="test__btn btn" href="#">Пройти тест</a></div>
+			</div>
+		</div>
+	</section>
+	<section class="brand">
+		<div class="brand__container">
+			<div class="brand__left-content">
+				<h2 class="left-content__title title">О бренде ЗаряД</h2>
+				<p class="left-content__text">Первый завод в россии по производству полного<br>ассортимента высококачественных хоккейных клюшек<br>для всех возрастных категорий и уровней игры</p>
+				<div class="left-content__block-btn"><a class="left-content__btn" href="#">Подробнее<br>о компании</a></div>
+			</div>
+			<div class="brand__right-content">
+				<ul class="right-content__tab-list">
+					<li class="tab-list__item">
+						<h3 class="tab-list__item_title">Космические технологии</h3>
+						<p class="tab-list__item_text">Первый завод в россии по производству полного ассортимента<br>высококачественных хоккейных клюшек для всех возрастных категорий и<br>уровней игры</p>
+						<img src="images/tech.png" alt="" class="tab-list__item_img">
+					</li>
+					<li class="tab-list__item">
+						<h3 class="tab-list__item_title">Российский стиль</h3>
+						<p class="tab-list__item_text">Клюшки заряд специально спроектированы для точной игры в пас, первого<br>длинного паса, максимального контроля шайбы и остроатакующей<br>комбинационной игры</p>
+						<img src="images/russtyle.png" alt="" class="tab-list__item_img">
+					</li>
+				</ul>
+			</div>
+		</div>
+	</section>
+	<section class="discount">
+		<div class="discount__container">
+			<div class="discount__left-content">
+				<div class="discount__title">
+					<p class="shadow__title">
+						Получи <img src="images/energy.svg" alt="energy"><br><img src="images/sale.svg" alt="sale">скидку <span>500 ₽ <br></span> за подписку
+					</p>
+				</div>
+				<div class="discount__left-content_subtitle">Никакого спама и рекламы, только полезная<br>информация, скидки и персональные предложения</div>
+				<input class="discount__left-content_input" type="email" placeholder="Ваш Email">
+				<div class="discount__left-content_block-btn"><a class="discount__left-content_btn btn" href="#">Подписаться</a></div>
+			</div>
+			<div class="discount__right-content">
+				<div class="discount__right-content_block-img">
+					<img src="images/twiceplayer.png" alt="">
+				</div>
+			</div>
+		</div>
+	</section>
+</main>
+			<footer class="footer">
+	<div class="footer__container">
+		<div class="footer__communicate">
+			<div class="communicate">
+				<img src="images/footer-logo.svg" alt="" class="footer__logo">
+				<a href="#"><img src="images/tg.svg" alt="" class="tg"></a>
+				<a href="#"><img src="images/vk.svg" alt="" class="vk"></a>
+			</div>
+			<div class="communicate__block-btn"><a class="communicate__btn" href="#">Связаться<br>с нами</a></div>
+		</div>
+		<div class="footer__content">
+			<div class="footer__left-content">
+				<p class="name-company">Наименование<br><span>ООО «ЗаряД»</span></p>
+				<p class="address-company">Юридический адрес<br><span>Республика Татарстан, г. Набережные Челны,<br>
+					ул. Альметьевский тракт, д. 6а</span></p>
+				<div class="com-company">
+					<p class="tel">Телефон<br><a href="tel:+7 (800) 511-93-90">+7 (800) 511-93-90</a></p>
+					<p class="email">Email<br><a href="mailto:info@zaryad-hockey.ru">info@zaryad-hockey.ru</a></p>
+					<p class="inn">ИНН<br><span>1646040440</span></p>
+					<p class="ogrn">ОГРН<br><span>1151674001632</span></p>
+				</div>
+				<p class="copyright">© 2017-2022 Заряд</p>
+				<a href="#" class="privacy">Политика конфиденциальности</a>
+			</div>
+			<div class="footer__right-content">
+				<ul class="title-footer-block">О бренде
+					<li class="block-footer-item"><a class="block-footer-link" href="">История бренда</a></li>
+					<li class="block-footer-item"><a class="block-footer-link" href="">Технологии производства</a></li>
+					<li class="block-footer-item"><a class="block-footer-link" href="">Производство</a></li>
+					<li class="block-footer-item"><a class="block-footer-link" href="">Контакты магазинов</a></li>
+				</ul>
+				<ul class="title-footer-block">Партнерам
+					<li class="block-footer-item"><a class="block-footer-link" href="">Как стать партнером</a></li>
+					<li class="block-footer-item"><a class="block-footer-link" href="">Как мы работаем</a></li>
+					<li class="block-footer-item"><a class="block-footer-link" href="">Информация о выборе контрагентов</a></li>
+				</ul>
+				<ul class="title-footer-block">Покупателям
+					<li class="block-footer-item"><a class="block-footer-link" href="">Доставка и оплата</a></li>
+					<li class="block-footer-item"><a class="block-footer-link" href="">Обмен и возврат</a></li>
+					<li class="block-footer-item"><a class="block-footer-link" href="">Гарантия</a></li>
+				</ul>
+				<ul class="title-footer-block">
+					<li class="block-footer-item"><a class="block-footer-link" href="">Бонусная программа</a></li>
+					<li class="block-footer-item"><a class="block-footer-link" href="">Таблица размеров</a></li>
+					<li class="block-footer-item"><a class="block-footer-link" href="">Подарочный сертификат</a></li>
+				</ul>
+				<div class="developed-by"><a href="https://www.imperium.im/"><img src="images/developed.svg" alt="imperium web"></a></div>
+			</div>
+		</div>
+	</div>
+</footer>
+		</div>
+		<script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+<script src="js/app.min.js"></script>
+	</body>
+</html>
